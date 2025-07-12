@@ -1,12 +1,11 @@
-# React + Vite
+# Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack React quiz application built with Vite, featuring AWS Amplify hosting, Cognito authentication, and automated CI/CD pipeline.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates the integration of modern cloud services with a React application, featuring:
+- **User Authentication**: Secure sign-up/sign-in using AWS Cognito
+- **Serverless Hosting**: Deployed on AWS Amplify
+- **CI/CD Pipeline**: Automatic deployments from GitHub
+- **Real-time Updates**: Push to deploy functionality
